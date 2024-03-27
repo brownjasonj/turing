@@ -10,7 +10,7 @@ use sophia_turtle::parser::turtle::TurtleParser;
 use sophia_api::prelude::TripleParser;
 
 
-const FILE_NAME: &str = "/usr/local/google/home/jajabro/Development/knowledge-graph/organizational-change-tracker/rdf/ontology/bank-organization.ttl";
+const FILE_NAME: &str = "rdf/ontology/bank-organization.ttl";
 
 fn main() {
     let f_str = fs::read_to_string(FILE_NAME);
